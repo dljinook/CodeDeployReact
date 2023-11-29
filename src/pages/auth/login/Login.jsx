@@ -64,6 +64,7 @@ function Login() {
 
   useEffect(() => {
     // 이 부분에서 useEffect에 필요한 동작을 추가
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // 폼 제출 이벤트 핸들러
