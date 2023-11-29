@@ -45,6 +45,7 @@ function PostList() {
   useEffect(() => {
     postData();
     console.log(totalDataLength);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   return (
