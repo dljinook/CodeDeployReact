@@ -42,6 +42,7 @@ function Post() {
   useEffect(() => {
     // 컴포넌트 마운트 시 데이터 가져오기
     fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // 댓글 입력 핸들러
